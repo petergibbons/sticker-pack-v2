@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#64d8fe">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Sticker World"
-        android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="171dp"/>
+        android:layout_marginTop="171dp"
+        android:text="                                         " />
 
     <Button
         android:id="@+id/btn_add_sticker"
+        style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Sticker"
         android:layout_below="@+id/textView"
-        android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView"
-        android:layout_marginTop="55dp"/>
+        android:layout_alignRight="@+id/textView"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="-17dp"
+        android:layout_marginRight="-17dp"
+        android:background="#2196F3"
+        android:text="    Add KCEmoji Stickers    " />
+
 </RelativeLayout>
